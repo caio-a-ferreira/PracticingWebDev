@@ -1,0 +1,77 @@
+/* Layout */
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #cfb1f7ab;
+}
+
+#container{
+    width: 720px;
+    margin: 0 auto;
+    background-color: #cbb3eb7e;
+}
+
+#marca{
+    height: 100px;
+    background: #b98df5;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo{
+    width: 520px;
+    float: right;
+}
+#conteudo-principal{
+    width: 320px;
+    float: left;
+
+}
+
+#conteudo-secundario{
+    width: 180px;
+    float: right;
+    background: #b387f156;
+    
+}
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao{
+    width: 180px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #bc92f76c;
+}
+
+#rodape{
+    clear: both;
+    background: #bc92f7a6;
+    padding: 5px;
+}
+#navegacao ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navegacao ul a{
+    width: 180px;
+    height: 40px;
+    display: block;
+    color: black;
+    background: url(../imagens/seta.png) no-repeat center left;
+    text-indent: 20px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+#navegacao a:hover{
+    background: #bc92f76c url(../imagens/seta.png) no-repeat center left;
+
+}
