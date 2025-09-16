@@ -1,0 +1,1 @@
+Here is a website that i did practicing css, the website is only a page with a fixed layout with divs sepparating the content in general, like, "Content", "navigation", "footer". It's is simple but it's an start.
