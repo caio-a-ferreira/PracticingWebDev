@@ -1,0 +1,78 @@
+/* Layout */
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #cfb1f7ab;
+}
+
+#container{
+    width: 85% ;
+    margin: 0 auto;
+    background-color: #cbb3eb7e;
+    min-width: 720px;
+}
+
+#brand{
+    height: 100px;
+    background: #b98df5;
+    text-align: center;
+    line-height: 100px;
+}
+
+#content{
+    width: 75%;
+    float: right;
+}
+#main-content{
+    width: 63%;
+    float: left;
+
+}
+
+#secondary-content{
+    width: 34%;
+    float: right;
+    background: #b387f156;
+    
+}
+#secondary-content h1,
+#secondary-content h2,
+#secondary-content h3,
+#secondary-content p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navigation{
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #bc92f76c;
+}
+
+#footer{
+    clear: both;
+    background: #bc92f7a6;
+    padding: 5px;
+}
+#navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul a{
+    width: 180px;
+    height: 40px;
+    display: block;
+    color: black;
+    background: url(../imagens/seta.png) no-repeat center left;
+    text-indent: 20px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+#navigation a:hover{
+    background: #bc92f76c url(../imagens/seta.png) no-repeat center left;
+
+}
